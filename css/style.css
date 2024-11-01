@@ -185,23 +185,61 @@ h3{
 	outline: none;
 }
 
+/*form-edicion-----no lo editen, please c: --------------------------*/
+
+
+#contact{
+	background-color: var(--color-body-background);
+	padding:20px;
+	margin: 0px;
+}
+
+#contact .container{
+	padding: 0;
+}
+
 #contact h2{
 	font-size: 50px;
 	text-align: center;
 	letter-spacing: 2px;
-	color: var(--color-body-red); 
+	color: var(--color-body-red);
+
 }
 
-#contact{
-	background-color: var(--color-body-background);
-	padding: 60px;
+
+/*form-edicion-----no lo editen, please c: --------------------------*/
+
+
+#contact .mc_embed_signup {
+    background: var(--color-body-background) !important;
+	font-size: 16px;
+	font-family:"Afacad", Sans-Serif;
+	font-weight: 500;
+	border-radius: 8px;
+	margin: 0 auto;
+	max-width: 600px;
+	
 }
 
-#contact label{
-	color: #FFFFFF;
-	padding: 8px;
-	font-weight: 600;
+
+ #contact .mc-field-group label {
+    color: var(--color-body-red);
 }
+
+#mc-embedded-subscribe {
+	background-color: var(--color-body-red) !important;
+	color: #fff;
+	border: none;
+}
+
+
+
+
+.refferal_badge {
+        filter: brightness(0) saturate(100%) invert(16%) sepia(96%) saturate(4289%) hue-rotate(328deg) brightness(91%) contrast(118%);
+    }
+
+/*form-edicion-----no lo editen, please c: --------------------------*/
 
 
 footer{
