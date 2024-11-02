@@ -281,3 +281,198 @@ footer{
 
 
 
+
+
+
+
+
+
+
+/*Media Queries*/
+
+@media (min-width: 1200px){
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+/*sm - Tableta*/
+@media (min-width: 600px) and (max-width:1200px){
+	
+	.imgportada{
+	
+	margin-top: 10%;
+	position: absolute;
+	top: 6%;
+	left: 52%;
+	bottom: -10%;
+		width:500px;
+		margin-left: 10px;
+}
+	
+	.imgsinopsis{
+	margin-bottom: 8%;
+	width:650px;
+	height:650px;
+		margin-top: 35%;
+}
+	
+	.meetalteregoh2{
+	
+    font-size: 40px!important;
+}
+	
+	.btn-outline-dark{
+	
+	font-weight: 700;
+	font-size: 23px;
+	position:absolute;
+	right: 64%;
+	bottom: 39%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-radius: 16px;
+	border: 4px solid #000;
+	box-shadow: 4px 4px 0 rgba(0, 0, 0, 1), 6px 6px 0 rgba(0, 0, 0, 1);
+		align-content: center;
+	
+	}
+	
+	.navbar-brand.logoheader{
+		
+		margin-left:10px;
+		
+	}
+	
+	.twbtext{
+		
+		font-size: 17px;
+		
+	}
+	
+	#reviews{
+		text-align: center;
+
+	}
+	
+	#reviews .card{
+		align-content: center;
+		margin: auto;
+		
+	}
+	
+	
+}
+
+
+/*Cellular*/
+@media (max-width:600px){
+	
+	.navbar-nav{
+		font-size: 12px;
+		
+		
+	}
+		
+	.imgportada{
+	
+	margin-top: 30%;
+	position: absolute;
+	top: auto;
+	left: auto;
+	bottom: -10%;
+		width:auto;
+		margin-left: auto;
+		padding-top: 90px;
+		margin-bottom: -250px;
+		
+}
+	
+	#hero{
+		padding-bottom: 700px;
+		
+		
+		
+	}
+	
+	#hero .img-fluid{
+		
+		width: auto;
+		height: auto;
+		
+	}
+	
+	.imgsinopsis{
+	margin-bottom: 8%;
+	width:auto;
+	height:auto;
+		margin-top: 10%;
+}
+	
+	.meetalteregoh2{
+	
+    font-size: 40px!important;
+}
+	
+	.btn-outline-dark{
+	
+	font-weight: auto;
+	font-size: 12px;
+	position:absolute;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-radius: 16px;
+	border: 4px solid #000;
+	box-shadow: 4px 4px 0 rgba(0, 0, 0, 1), 6px 6px 0 rgba(0, 0, 0, 1);
+		align-content: center;
+	margin-bottom: 550px;
+	margin-left: 80px;
+	margin-right:-80px ;
+	}
+	
+	.navbar-brand.logoheader{
+		
+		margin-left:10px;
+		
+	}
+	
+	.twbtext{
+		
+		font-size: 17px;
+		
+	}
+	
+	#reviews{
+		text-align: center;
+
+	}
+	
+	#reviews .card{
+		align-content: center;
+		margin: auto;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
