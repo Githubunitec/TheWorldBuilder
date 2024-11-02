@@ -379,9 +379,29 @@ footer{
 /*Cellular*/
 @media (max-width:600px){
 	
+	.img-Navbarimg{
+		width:auto;
+		height:auto;
+		
+	}
+	
+	.navbar-toggler-icon{
+		margin-left: 340px;
+		background-color:#FFFFFF;
+		margin-bottom: 3%;
+		filter: invert(100%)
+		
+	}
+	
+	
 	.navbar-nav{
 		font-size: 12px;
 		
+		
+	}
+	
+	header{
+		padding:auto;
 		
 	}
 		
@@ -393,9 +413,10 @@ footer{
 	left: auto;
 	bottom: -10%;
 		width:auto;
-		margin-left: auto;
+		margin: auto;
 		padding-top: 90px;
 		margin-bottom: -250px;
+		margin-left: -20px;
 		
 }
 	
@@ -437,8 +458,8 @@ footer{
 	box-shadow: 4px 4px 0 rgba(0, 0, 0, 1), 6px 6px 0 rgba(0, 0, 0, 1);
 		align-content: center;
 	margin-bottom: 550px;
-	margin-left: 80px;
-	margin-right:-80px ;
+	margin-left: 100px;
+	margin-right:-100px ;
 	}
 	
 	.navbar-brand.logoheader{
